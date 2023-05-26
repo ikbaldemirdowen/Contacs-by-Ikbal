@@ -11,6 +11,8 @@
 		A14606652A20716400CD6834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14606642A20716400CD6834 /* ContentView.swift */; };
 		A14606672A20716600CD6834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14606662A20716600CD6834 /* Assets.xcassets */; };
 		A146066A2A20716600CD6834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14606692A20716600CD6834 /* Preview Assets.xcassets */; };
+		A14606722A20719800CD6834 /* ContactsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A14606702A20719800CD6834 /* ContactsDataModel.xcdatamodeld */; };
+		A14606742A20733100CD6834 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14606732A20733100CD6834 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A14606642A20716400CD6834 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A14606662A20716600CD6834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14606692A20716600CD6834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A14606712A20719800CD6834 /* ContactsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		A14606732A20733100CD6834 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		A14606612A20716400CD6834 /* Contacs by Ikbal */ = {
 			isa = PBXGroup;
 			children = (
+				A14606752A20736F00CD6834 /* Model */,
 				A14606622A20716400CD6834 /* Contacs_by_IkbalApp.swift */,
 				A14606642A20716400CD6834 /* ContentView.swift */,
+				A14606702A20719800CD6834 /* ContactsDataModel.xcdatamodeld */,
 				A14606662A20716600CD6834 /* Assets.xcassets */,
 				A14606682A20716600CD6834 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				A14606692A20716600CD6834 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A14606752A20736F00CD6834 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A14606732A20733100CD6834 /* Contact.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14606742A20733100CD6834 /* Contact.swift in Sources */,
+				A14606722A20719800CD6834 /* ContactsDataModel.xcdatamodeld in Sources */,
 				A14606652A20716400CD6834 /* ContentView.swift in Sources */,
 				A14606632A20716400CD6834 /* Contacs_by_IkbalApp.swift in Sources */,
 			);
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A14606702A20719800CD6834 /* ContactsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A14606712A20719800CD6834 /* ContactsDataModel.xcdatamodel */,
+			);
+			currentVersion = A14606712A20719800CD6834 /* ContactsDataModel.xcdatamodel */;
+			path = ContactsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A14606572A20716400CD6834 /* Project object */;
 }
